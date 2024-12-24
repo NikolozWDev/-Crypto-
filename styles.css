@@ -17,7 +17,7 @@ body {
     align-items: center;
     justify-content: space-around;
     background-color: rgb(10, 29, 56);
-    padding: 20px;
+    padding: 10px;
 }
 .top-left {
     display: flex;
@@ -36,13 +36,13 @@ body {
 }
 .top-text1 {
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .top-text2 {
     color: rgb(139, 139, 139);
     font-weight: bold;
-    font-size: 15px;
+    font-size: 14px;
 }
 .button1 {
     border: 1px solid rgb(51, 111, 190);
@@ -84,7 +84,7 @@ body {
 
 
 .primary-middle1 {
-    background-color: rgb(6, 17, 33);
+    background-color: #010118;
     z-index: 1;
 }
 
@@ -209,7 +209,7 @@ body {
     background-color: white;
     border: none;
     border-radius: 20px;
-    padding: 10px 20px 10px 20px;
+    padding: 8px 22px 8px 22px;
 }
 .for4 {
     color: green;
@@ -228,6 +228,7 @@ body {
     gap: 100px;
     width: 100%;
     margin-top: 50px;
+    padding: 0px 0px 150px 0px;
 }
 .line {
     width: 80%;
@@ -236,6 +237,104 @@ body {
 }
 .middle1-box1-img1 {
     width: 200px;
+}
+
+
+.for5 {
+}
+.for6 {
+    background-color: #0d2846;
+}
+.middle1-div3-text1 {
+    color: rgb(60, 141, 189);
+    font-weight: bold;
+    font-size: 18px;
+}
+.middle1-div3-text2 {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.for7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.middle1-div3-img1 {
+    border-radius: 30px;
+}
+.middle1-div3-div1 {
+    border-radius: 30px;
+    background: radial-gradient(123.14% 44.41% at 77.00% 45.58%, rgba(17, 153, 250, 0.20) 0%, rgba(17, 153, 250, 0.00) 100%), radial-gradient(172.02% 136.06% at 4.78% 96.68%, rgba(1, 1, 24, 0.40) 0%, rgba(1, 1, 24, 0.00) 100%), #002F61;;
+    display: flex;
+    gap: 5px;
+    padding: 20px;
+}
+.for8 {
+    width: 50%;
+}
+
+
+
+
+.middle1-div3-div1-left {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.middle1-div3-div1-left-div1 {
+    display: flex;
+    flex-direction: column;
+}
+.middle1-div3-div1-text1 {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.middle1-div3-div1-text2 {
+    color: rgb(184, 184, 184);
+    font-size: 14px;
+}
+.middle1-div3-div1-text3 {
+    color: red;
+    font-size: 14px;
+}
+.for9 {
+    font-size: 16px;
+}
+.middle1-div3-div1-right-div1 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.middle1-div3-div1-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.middle1-div3-div1-box2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.for10 {
+    width: 100%;
+    margin-top: 20px;
+}
+.for11 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.middle1-div3-div1-img1 {
+    border-radius: 50%;
+}
+.middle1-div3-div1-img2 {
+    border-radius: 50%;
+}
+.for12 {
+    color: green;
 }
 
 
