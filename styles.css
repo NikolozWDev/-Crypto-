@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(10, 29, 56);
+    padding: 20px;
+}
+.top-left {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.helper1 {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+.top-right {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+.top-text1 {
+    color: white;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.top-text2 {
+    color: rgb(139, 139, 139);
+    font-weight: bold;
+    font-size: 15px;
+}
+.button1 {
+    border: 1px solid rgb(51, 111, 190);
+    border-radius: 30px;
+    background-color: rgb(10, 29, 56);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 30px 8px 30px;
+    font-weight: bold;
+    gap: 10px;
+}
+
+.menu {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+}
+.for1 {
+    position: relative;
+}
+.absolute1 {
+    position: relative;
+}
+.new {
+    position: absolute;
+    background-color: rgb(29, 96, 134);
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 1px 5px 1px 5px;
+    border-radius: 30px;
+    right: 5px;
+}
+
+
+
+.primary-middle1 {
+    background-color: rgb(6, 17, 33);
+    z-index: 1;
+}
+
+.middle1-div1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.middle1-text3 {
+    color: white;
+    font-size: 16px;
+}
+.span1 {
+    color: rgb(65, 65, 189);
+}
+.button2 {
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: rgb(6, 17, 33);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 20px 8px 20px;
+    font-weight: bold;
+    gap: 10px;
+}
+
+.middle1-text1 {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.middle1-div1-primary {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.middle1-text2 {
+    color: rgb(204, 204, 204);
+    font-size: 20px;
+}
+
+.primary-middle1 {
+    padding: 100px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+.middle1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 80%;
+}
+
+.primary-img2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+.middle1-img2 {
+    margin-top: 80px;
+    width: 70%;
+    border-radius: 40px;
+    z-index: 3;
+    object-fit: cover;
+}
+.img2-shine {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    border-radius: 50%;
+    filter: blur(10px);
+    background-color: rgb(10, 40, 85);
+    z-index: 2;
+    top: 150px;
+}
+
+.middle1-img3 {
+    margin-top: 100px;
+    width: 100%;
+    object-fit: cover;
+}
+.middle1-text4 {
+    color: rgb(139, 139, 139);
+    font-size: 14px;
+    margin-top: -20px;
+}
+
+.for2 {
+    color: rgb(51, 111, 190);
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.middle1-box1-text1 {
+    color: rgb(204, 204, 204);
+    font-size: 24px;
+}
+.span2 {
+    color: rgb(134, 134, 134);
+    font-size: 16px;
+}
+.middle1-box1-text2 {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.middle1-box1-text3 {
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+.for3 {
+    font-size: 16px;
+}
+.button3 {
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+}
+.for4 {
+    color: green;
+}
+
+.middle1-box1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.middle1-div2 {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 100%;
+    margin-top: 50px;
+}
+.line {
+    width: 80%;
+    height: 1px;
+    background-color: gray;
+}
+.middle1-box1-img1 {
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1079px) {
+    .helper1 {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 799px) {
+    .helper1 {
+        display: none;
+    }
+}
+@media (min-width: 800px) {
+    .menu {
+        display: none;
+    }
+}
+@media (max-width: 479px) {
+    .top-img3 {
+        display: none;
+    }
+    .button1 {
+        display: none;
+    }
+}
