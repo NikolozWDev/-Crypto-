@@ -6,7 +6,18 @@ body {
     overflow-x: hidden;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+a {
+    text-decoration: none;
+}
+::-webkit-scrollbar {
+    background-color: #00143C;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #002F61;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #254566;
+}
 
 
 
@@ -48,6 +59,86 @@ body {
     color: rgb(139, 139, 139);
     font-weight: bold;
     font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.top-img3 {
+    cursor: grab;
+}
+
+.absolute2 {
+    background-color: #09172b;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    position: absolute;
+    z-index: 30;
+    left: 0;
+    right: 0;
+    top: 70px;
+    justify-content: center;
+    padding: 20px 0px 40px 0px;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s;
+}
+.top-text3 {
+    color: rgb(139, 139, 139);
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.individuals {
+    transition: all 0.3s;
+}
+.individuals:hover .absolute2 {
+    opacity: 1;
+}
+.top-text3:hover {
+    color: white;
+}
+.top-text3:hover .absolute2 {
+    opacity: 1;
+}
+.absolute2-text1 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+.span5 {
+    font-size: 12px;
+    color: rgb(51, 111, 190);;
+}
+.for46 {
+    opacity: 0;
+    pointer-events: none;
+}
+.absolute2-text2 {
+    color: rgb(99, 99, 99);
+    font-weight: bold;
+    font-size: 13px;
+}
+.primary-side1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.top-text2:hover {
+    color: white;
+}
+.button1-img1 {
+    position: absolute;
+    opacity: 0;
+    z-index: 21;
+    transition: all 0.3s;
+    pointer-events: none;
+    left: 8px;
+    border-radius: 20px;
+    top: 20px;
+}
+.button1-primary {
+    position: relative;
 }
 .button1 {
     border: 1px solid rgb(51, 111, 190);
@@ -60,6 +151,15 @@ body {
     padding: 8px 30px 8px 30px;
     font-weight: bold;
     gap: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.button1:hover {
+    background-color: rgb(35, 54, 80);
+}
+.button1-primary:hover .button1-img1 {
+    top: 45px;
+    opacity: 1;
 }
 
 .menu {
@@ -69,9 +169,14 @@ body {
 }
 .for1 {
     position: relative;
+    color: rgb(29, 96, 134);
+}
+.for1:hover {
+    color: rgb(29, 96, 134);
 }
 .absolute1 {
     position: relative;
+    cursor: pointer;
 }
 .new {
     position: absolute;
@@ -79,7 +184,7 @@ body {
     border: none;
     color: white;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 10px;
     padding: 1px 5px 1px 5px;
     border-radius: 30px;
     right: 5px;
@@ -104,6 +209,9 @@ body {
 .span1 {
     color: rgb(65, 65, 189);
 }
+.for40 {
+    cursor: pointer;
+}
 .button2 {
     border: 1px solid white;
     border-radius: 30px;
@@ -115,6 +223,11 @@ body {
     padding: 8px 20px 8px 20px;
     font-weight: bold;
     gap: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.button2:hover {
+    background-color: rgb(30, 32, 36);
 }
 
 .middle1-text1 {
@@ -174,6 +287,7 @@ body {
     margin-top: 100px;
     width: 100%;
     object-fit: cover;
+    cursor: pointer;
 }
 .middle1-text4 {
     color: rgb(139, 139, 139);
@@ -215,6 +329,14 @@ body {
     border: none;
     border-radius: 20px;
     padding: 8px 22px 8px 22px;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: all 0.3s;
+}
+.button3:hover {
+    border: 1px solid rgb(34, 111, 212);
+    color: white;
+    background-color: #000A1F;
 }
 .for4 {
     color: green;
@@ -335,6 +457,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.middle1-div3-div1-box2:hover {
+    opacity: 0.5;
 }
 .for10 {
     width: 100%;
@@ -430,6 +557,11 @@ body {
     border-radius: 30px;
     padding: 10px 15px 10px 15px;
     font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.button4:hover {
+    background-color: rgb(226, 226, 226);
 }
 .button5 {
     background-color: #0E213B;
@@ -442,6 +574,7 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 }
 .for13 {
     background-color: white;
@@ -523,6 +656,10 @@ body {
     align-items: center;
     gap: 10px;
     border: 1px solid white;
+    transition: all 0.3s;
+}
+.for17:hover {
+    background-color: #162336;
 }
 
 
@@ -547,6 +684,7 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    cursor:wait
 }
 .pro1 {
     margin-top: -30px;
@@ -587,6 +725,11 @@ body {
 .middle1-div7-img2 {
     border-radius: 50%;
     object-fit: cover;
+    cursor: pointer;
+    border: 1px solid rgb(11, 20, 38);;
+}
+.middle1-div7-img2:hover {
+    border: 1px solid white;
 }
 .middle1-div7 {
     display: flex;
@@ -603,16 +746,26 @@ body {
     display: flex;
     align-items: center;
     gap: 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.middle1-div8-div1-div1:hover .vertical {
+    background-color: rgb(16, 112, 221);
 }
 .vertical {
-    width: 1px;
+    width: 2px;
     height: 20px;
     background-color: white;
+    transition: all 0.3s;
 }
 .middle1-div8-text1 {
     color: rgb(221, 221, 221);
     font-weight: bold;
     font-size: 18px;
+    transition: all 0.2s;
+}
+.middle1-div8-text1:hover {
+    transform: translateX(5px);
 }
 .span4 {
     font-size: 12px;
@@ -630,11 +783,13 @@ body {
     color: rgb(172, 172, 172);
     font-weight: bold;
     font-size: 13px;
+    cursor: pointer;
 }
 
 .for25 {
     font-size: 18px;
     color: white;
+    cursor: none;
 }
 .middle1-div8-div2 {
     display: flex;
@@ -703,6 +858,7 @@ body {
 }
 .for28 {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 
@@ -1003,5 +1159,11 @@ body {
 @media (min-width: 1300px) {
     .middle1-img3 {
         width: 1040px;
+    }
+}
+@media (min-width: 1400px) {
+    .top {
+        justify-content: center;
+        gap: 350px;
     }
 }
